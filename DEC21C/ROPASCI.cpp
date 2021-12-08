@@ -43,8 +43,8 @@ int main(){
 
             result[n-1] = str[n-1];
             R[n-2] = conflict('R', str[n-1]);
-            R[n-2] = conflict('P', str[n-1]);
-            R[n-2] = conflict('S', str[n-1]);
+            P[n-2] = conflict('P', str[n-1]);
+            S[n-2] = conflict('S', str[n-1]);
 
             if(str[n-2] == 'R'){
                 result[n-2] = R[n-2];
