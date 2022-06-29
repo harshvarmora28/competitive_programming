@@ -1,5 +1,5 @@
-// Author: Harsh Varmora
-// Problem: Change row and column both
+// Aurthor: Harsh Varmora
+// Problem: Chef and his apps
 // Date: 29 June,2022
 
 #include<bits/stdc++.h>
@@ -49,10 +49,10 @@ vi g[N];
 int a[N];
 
 void solve() {
-    int a, b, c, d;
-    cin>>a>>b>>c>>d;
-    if(a != c && b != d) cout<<"1"<<endl;
-    else cout<<"2"<<endl;
+    int s, x, y, z;
+    cin>>s>>x>>y>>z;
+    if(s - (x + y) >= z) cout<<"0"<<endl;
+    else (s - ((x + y) - max(x, y)) >= z) ? cout<<"1"<<endl : cout<<"2"<<endl;
 }
 
 int main() {
