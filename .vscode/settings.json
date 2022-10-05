@@ -19,5 +19,6 @@
         "complex": "cpp",
         "random": "cpp",
         "limits": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
