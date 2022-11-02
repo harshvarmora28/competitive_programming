@@ -18,7 +18,10 @@
         "cmath": "cpp",
         "complex": "cpp",
         "random": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "one_xor_deletions": "cpp",
+        "bitset": "cpp",
+        "algorithm": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
